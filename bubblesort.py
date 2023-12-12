@@ -10,3 +10,5 @@ for i in range(len(lis)-2,-1,-1):
     if(not swap):
         break
 print(lis)
+#time complexity is o(n^2)
+#in best case o(n)
