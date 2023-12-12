@@ -8,3 +8,5 @@ for i in range(0, len(lis) - 1):
     lis[i], lis[mini] = lis[mini], lis[i]
 
 print(lis)
+#time complexity o(n^2)
+
