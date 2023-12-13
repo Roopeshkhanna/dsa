@@ -4,3 +4,5 @@ for i in range(0,len(lis)):
     if(lis[i]!=i):
         print(i)
         break
+#Time Complexity: O(N * logN)
+#Auxiliary Space: O(1)
