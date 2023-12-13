@@ -1,6 +1,6 @@
-lis=[2,1,5,7,2,5,8,9]
+lis=[2,1,5,7,2,5,8,9,33]
 
-for i in range(len(lis)-2,-1,-1):
+for i in range(len(lis)-1,-1,-1):
     swap=0
     for j in range(0,i):
      
