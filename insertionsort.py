@@ -5,3 +5,5 @@ for i in range(0,len(lis)):
         lis[j-1],lis[j]=lis[j],lis[j-1]
         j-=1
 print(lis)
+#time complexity o[n^2]
+#best o[n]
