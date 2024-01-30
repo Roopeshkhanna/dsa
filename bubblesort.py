@@ -8,5 +8,5 @@ for i in range(len(lis)):
     if(swap==0):
       break
 print(lis)
-//Time complexity o(n^2) 
-//space complexity o(1)
+#Time complexity o(n^2) 
+#space complexity o(1)
