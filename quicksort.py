@@ -12,7 +12,7 @@ def partition(arr, low, high):
     while i < j:
         while arr[i] <= pivot and i < high:#here i must be less than high 
             i += 1                         #since i is incremented here
-        while arr[j] > pivot and j > low:
+        while arr[j] >= pivot and j > low:
             j -= 1
         if i < j:
             arr[i], arr[j] = arr[j], arr[i]
@@ -20,8 +20,8 @@ def partition(arr, low, high):
     arr[j], arr[low] = arr[low], arr[j]
     return j
 
-arr = [2, 1, 4, 6, 8]
-quicksort(arr, 0, 4)
+arr =[1,-8,-8,2]
+quicksort(arr, 0, len(arr)-1)
 print(arr)
 #Time complexity O(nlog(n))
 #space complexity O(1)
