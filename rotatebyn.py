@@ -1,3 +1,4 @@
+#brute force
 lis = [1, 2, 3, 4, 5, 6, 7]
 d = 10
 r = d % len(lis)
