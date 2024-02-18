@@ -7,6 +7,6 @@ for i in range(len(lis)):
     for j in range(i,len(lis)):
 
        sum+=lis[j]
-    maxi=max(maxi,sum)
+       maxi=max(maxi,sum)
 print(maxi)
 #T.C O(n^2)
