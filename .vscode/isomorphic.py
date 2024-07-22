@@ -7,6 +7,7 @@ if len(str1) != len(str2):
 else:
     for i in range(len(str1)):
         if str1[i] in dic:
+            
             if dic[str1[i]] != str2[i]:
                 print("Strings are not isomorphic")
                 break
