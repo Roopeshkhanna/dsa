@@ -3,7 +3,7 @@ def median(a,b):
     if(n1>n2):
         return(median(b,a))
     n=n1+n2
-    left=n2
+    left=(n1+n2+1)//2
     high=n1 #high=min(left,n1)
             #low=max(0,left-n2)
     low=0
@@ -36,7 +36,7 @@ def median(a,b):
 
 
 
-lis1=[1,4,6,7]
-lis2=[2,3,8,9,10]
-print(median(lis1,lis2))
+a = [1, 4, 7, 10, 12]
+b = [2, 3, 6, 15]
+print(median(a,b))
 
