@@ -26,7 +26,7 @@ def reverse(head):
         current=ne
         if(current==start):
             break
-    return()
+    return( )
 # Function to print the circular linked list
 def print_circular_linked_list(head):
     if head is None:
