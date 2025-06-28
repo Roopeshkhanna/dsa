@@ -1,14 +1,14 @@
 arr = [2, 3, 6, 5, 8, 4]
 target = 14
-arr.sort()  # Sort the array in-place
+arr.sort() 
 
 i = 0
-j = len(arr) - 1  # Adjust j to point to the last index
+j = len(arr) - 1  
 
 while i < j:
     if arr[i] + arr[j] == target:
         print("yes")
-        break  # Break out of the loop once you find a pair
+        break  
     elif arr[i] + arr[j] < target:
         i += 1
     else:
